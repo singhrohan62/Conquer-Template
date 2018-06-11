@@ -6,12 +6,13 @@ body {
 
 h1 {
   text-align: center;
-  padding: 50px 0;
-  font-weight: 800;
+  padding-top: 250px ;
+  font-weight: 300;
   margin: 0;
   letter-spacing: -1px;
-  color: inherit;
-  font-size: 40px;
+  color: white;
+  font-size: 60px;
+  text-shadow: 1px 1px 4px #000;
 }
 
 h2 {
@@ -19,8 +20,9 @@ h2 {
   font-size: 30px;
   margin: 0;
   font-weight: 300;
-  color: inherit;
-  padding: 50px;
+  color: white;
+  padding: 10px;
+  text-shadow: 1px 1px 4px #000;
 }
 
 .center {
@@ -31,20 +33,21 @@ section {
   height: 100vh;
   background-color: #ff99ee;
   background-repeat: no-repeat;
-  background-size:  contain;
+  background-size:  cover;
 }
 
 nav {
 	width: 100%;
 	margin: 0 auto;
-	background: #aaa;
-	padding: 0;
-	
+	background: #556;
+	position: fixed;
 }
 
 nav ul {
 	list-style: none;
+	margin: 0;
 	text-align: center;
+	padding: 6px;
 }
 
 nav ul li {
@@ -55,10 +58,11 @@ nav ul li a {
 	display: block;
 	text-decoration: none;
 	 padding: 15px;
-	color: #fff;
+	color: #bbb;
 	font-weight: 800;
 	text-transform: uppercase;
 	margin: 0 10px;
+	border: 1px solid #bbb;
 }
 
 nav ul li a:before {
@@ -66,6 +70,6 @@ nav ul li a:before {
 }
 
 nav ul li a:hover {
-	color:#555;
-	background-color: yellow;
+	color:#fff;
+	background-color: #777;
 }
