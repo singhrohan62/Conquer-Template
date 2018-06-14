@@ -36,6 +36,18 @@ section {
   background-size:  cover;
 }
 
+#header_section {
+	height: 90vh;
+}
+
+#middle_section {
+	background-color: #fff;
+}
+
+#footer_section {
+	background-color: #673ab7;
+}
+
 nav {
 	width: 100%;
 	margin: 0 auto;
@@ -50,7 +62,7 @@ nav ul {
 	padding: 6px;
 }
 
-nav ul li {
+.route, nav ul li {
 	display: inline-block;
 }
 
@@ -62,14 +74,14 @@ nav ul li a {
 	font-weight: 800;
 	text-transform: uppercase;
 	margin: 0 10px;
-	border: 1px solid #bbb;
+	
 }
 
 nav ul li a:before {
 	transition: all .5s;
 }
 
-nav ul li a:hover {
+.active, nav ul li a:hover {
 	color:#fff;
 	background-color: #777;
 }
